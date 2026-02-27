@@ -3,22 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Мой сайт</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Регистрация</h1>
-    <hr>
-    <ul>
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="catolog.html">Каталог</a></li>
-        <li><a href="reg.html">Регистрация</a></li>
-    </ul>
-    <hr>
-    <form action="#">
-        <input type="text" placeholder="ФИО">
-        <input type="email" placeholder="email">
-        <input type="password" placeholder="пароль">
-        <input type="button" placeholder="кнопка">
-        <input type="send" placeholder="отправить кому">
-    </form>
+  <div class="wrapper">
+      <div class="content">
+          <h1 class="header1">Регистрация</h1>
+        <hr>
+        <ul class="menu">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="catolog.html">Каталог</a></li>
+            <li><a href="reg.html">Регистрация</a></li>
+        </ul>
+        <hr>
+        <form action="#">
+            <input id="name" type="text" placeholder="ФИО">
+            <input type="text">
+            <input type="email" placeholder="email">
+            <input id="password" type="password" placeholder="пароль">
+            <input class = "button" type="submit" placeholder="подтвердить">
+            <input class = "button" type="reset" placeholder="сбросить">
+        </form>
+      </div>
+      <footer>QwaydArt &copy;</footer>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
